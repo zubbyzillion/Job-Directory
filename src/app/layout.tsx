@@ -21,6 +21,9 @@ export default function RootLayout({
       <body className={inter.className}>
           <Header />
         {children}
+        <footer className="container py-8 text-gray-500">
+          Job Directory &copy; 2024 - All Rights Reserved
+        </footer>
       </body>
     </html>
   );

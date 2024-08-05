@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="container py-12">
+        <section className="container py-16">
             <h1 className="text-4xl font-bold text-center">
                 Your dream job in<br /> one place
             </h1>

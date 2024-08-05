@@ -3,16 +3,21 @@
 export default function JobRow() {
     return (
         <>
-         <div className="bg-white p-4 rounded-md shadow-sm flex gap-4">
-            <div className="content-center">
-                <img className="size-12" src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg" alt="spotify" />
+         <div className="bg-white p-4 rounded-lg shadow-sm">
+            <div className="absolute top-0 right-0">Heart</div>
+            <div className="flex grow gap-4">
+                <div className="content-center">
+                    <img className="size-12" src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg" alt="spotify" />
+                </div>
+                <div className="grow sm:flex">
+                    <div className="grow">
+                        <div className="text-gray-500 text-sm">Spotify</div>
+                        <div className="font-bold text-lg mb-1">Product Designer</div>
+                        <div className="content-end text-gray-400 text-sm">Remote &middot; Ontario, Canada &middot; Full-time</div>
+                    </div>
+                    <div className="content-end text-gray-500 text-sm">2 weeks ago</div>
+                </div>
             </div>
-            <div className="grow">
-                <div className="text-gray-500 text-sm">Spotify</div>
-                <div className="font-bold">Product Designer</div>
-                <div className="content-end text-gray-500 text-xs">Remote &middot; Ontario, Canada &middot; Full-time</div>
-            </div>
-            <div className="content-end text-gray-500 text-sm">2 weeks ago</div>
          </div>
         </>
     );
